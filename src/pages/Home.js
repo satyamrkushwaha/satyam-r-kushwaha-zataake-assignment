@@ -57,7 +57,7 @@ export default function Home() {
 
 
     useEffect(() => {
-        fetch('/products.json')
+        fetch('/products.json')    // I did not get the fake furniture api, so created products.json
             .then(response => response.json())
             .then(data => {
                 setProducts(data.products);

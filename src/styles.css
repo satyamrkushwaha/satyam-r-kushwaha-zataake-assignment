@@ -182,6 +182,7 @@ body {
   appearance: none;
   background: transparent;
   pointer-events: none;
+  z-index: 1;
 }
 
 .range-slider::-webkit-slider-thumb {
